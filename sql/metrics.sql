@@ -1,12 +1,12 @@
 -- name: 01_daily_active_users_by_region
--- A customer is "active" on a day if they placed at least one valid order line that day.
+-- placed at least one non-faulty, non-cancelled order line that day (created orders count as activity)
 SELECT
     f.date_key                      AS order_date,
     c.region,
     COUNT(DISTINCT f.customer_id)   AS daily_active_users
 FROM fact_order_line f
 JOIN dim_customer c ON c.customer_id = f.customer_id
-WHERE f.is_valid_sale
+WHERE NOT f.is_faulty AND f.status <> 'cancelled'
 GROUP BY f.date_key, c.region
 ORDER BY f.date_key, c.region;
 

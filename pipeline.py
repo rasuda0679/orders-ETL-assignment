@@ -144,8 +144,8 @@ def clean(customers, orders, products, categories, rates):
     orders["unit_price_usd"] = (orders["price"] * orders["rate_to_usd"]).round(4)
     orders["revenue_usd"] = (orders["unit_price_usd"] * orders["quantity"]).round(4)
 
-    # a line only counts as revenue if it's not cancelled and not faulty
-    orders["is_valid_sale"] = (~orders["is_faulty"]) & (orders["status"] != "cancelled")
+    # revenue only from paid/shipped; created = activity only; cancelled excluded
+    orders["is_valid_sale"] = (~orders["is_faulty"]) & (orders["status"].isin(["paid", "shipped"]))
 
     orders["cust_id"] = orders["cust_id"].astype("Int64")
     orders = orders[["order_id", "cust_id", "prod_id", "order_ts", "order_date", "status",

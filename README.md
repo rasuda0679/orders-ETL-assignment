@@ -89,21 +89,20 @@ All queries and their outputs are in `output/metrics_output.md`. Short version o
 **Daily active users by region** – distinct customers with a valid order line per day/region. With
 only 4 customers every day is 1 user; the query is correct at scale.
 
-**Sweet category** – 11 orders, 27 units, **$981.61** revenue in USD
-(Sweet direct $461.91, candy $276.62, chocolate $243.08).
-
+**Sweet category** – 9 orders, 17 units, $597.86 revenue in USD (Sweet direct $78.16,
+candy $276.62, chocolate $243.08).
 **Top 3 products by revenue** – product 14 kjhhjk ($2,241), 13 ruy5u ($951), 4 dddd ($244).
-Per region: west is dominated by 14/13/8; east by 4/11/7; central by 6/3/2.
+Per region: west is dominated by 14/13/12; east by 4/11/7; central by 6/3/2.
 
-**Customer lifetime value** – 42492 (west, enterprise, active) $3,645.64; 42491 $352.43 (inactive);
-32483 $319.07 (inactive); 21456 $88.32 (active).
+**Customer lifetime value** – 42492 (west, enterprise, active) $3,430.42; 32483 $319.07 (inactive); 42491
+ $136.12 (inactive); 21456 $88.32 (active).
 
 **Duplicates / faulty** – A-005 line seen 3×; faulty lines: A-013 (qty 0.1), A-021 (no customer),
 A-022 (no customer, cancelled).
 
-Definitions used: revenue is only counted where `is_valid_sale` (not faulty, not cancelled).
-`created` and `paid` orders are counted as revenue; if the business wants only shipped/paid, that is
-a one-line filter change.
+Definitions used: paid and shipped lines count as revenue (is_valid_sale); created lines count as activity
+ (daily active users) but not revenue; cancelled and faulty lines are excluded from both. This is an 
+ assumption — the source has no "payment captured" field.
 
 ## 6. Trade-offs and what I'd change at 100× scale
 
@@ -118,15 +117,14 @@ At 100× (or 10,000×) scale:
 - Land raw files in S3 / a Snowflake stage, load with `COPY INTO` into raw tables, keep raw immutable.
 - Make `dim_customer` an SCD Type 2 (valid_from / valid_to) so the active/inactive changes are preserved and CLV can be split by status at the time of the order.
 - Incremental loads on `fact_order_line` keyed by `order_date`, with a `MERGE` on (order_id, prod_id) so re-delivered files don't duplicate.
-- Move cleaning into Spark/Glue or dbt models instead of pandas; partition the fact by date; cluster on customer_id/product_id in Snowflake.
+- Move cleaning into Spark/Glue or dbt models instead of pandas; process incrementally by order_date;
+ monitor micro-partition pruning in Snowflake's Query Profile and add a clustering key only if it shows 
+ poor pruning on frequent selective predicates (e.g. customer_id).
 - Proper quarantine table for faulty rows plus alerting when the reject rate crosses a threshold.
 - Orchestrate with Airflow (see `airflow_dag.py`) with retries, SLAs and backfill support.
 - Add tests (dbt tests or Great Expectations): uniqueness of keys, referential integrity, quantity > 0, rate present for every order line.
 
 ## 7. Use of AI tools
 
-I have used Claude's help for this assignment, it helped me to design the pipeline, also used to give the
-skeleton of the pipeline and helped me to generate the scripts.
-The decisions which are related to data quality are implemented by myself like star-schemas,
-flag as dont delete for bad rows and also it should take the latest snapshot for customers. I have run the 
-pipeline end-to-end and checked the output by myself.
+I used Claude as a development aid for initial scaffolding and review. I validated the source data, 
+finalized the data model and transformation rules, and ran the pipeline end-to-end to verify the outputs.

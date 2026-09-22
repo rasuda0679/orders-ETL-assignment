@@ -3,14 +3,14 @@
 ### 01_daily_active_users_by_region
 
 ```sql
--- A customer is "active" on a day if they placed at least one valid order line that day.
+-- placed at least one non-faulty, non-cancelled order line that day (created orders count as activity)
 SELECT
     f.date_key                      AS order_date,
     c.region,
     COUNT(DISTINCT f.customer_id)   AS daily_active_users
 FROM fact_order_line f
 JOIN dim_customer c ON c.customer_id = f.customer_id
-WHERE f.is_valid_sale
+WHERE NOT f.is_faulty AND f.status <> 'cancelled'
 GROUP BY f.date_key, c.region
 ORDER BY f.date_key, c.region;
 ```
@@ -54,9 +54,9 @@ ORDER BY revenue_usd DESC;
 
 | category_group   | category_name   |   order_count |   total_quantity |   revenue_usd |
 |:-----------------|:----------------|--------------:|-----------------:|--------------:|
-| Sweet            | Sweet           |             3 |               12 |        461.91 |
 | Sweet            | candy           |             3 |                7 |        276.62 |
 | Sweet            | chocolate       |             5 |                8 |        243.08 |
+| Sweet            | Sweet           |             1 |                2 |         78.16 |
 
 ### 03a_top3_products_by_revenue
 
@@ -111,7 +111,7 @@ ORDER BY region, rank_in_region;
 | east     |            7 | asdfdf         |         78.16 |                3 |
 | west     |           14 | kjhhjk         |       2241.15 |                1 |
 | west     |           13 | ruy5u          |        951.39 |                2 |
-| west     |            8 | dafsfsdf       |        216.31 |                3 |
+| west     |           12 | yioyuio        |        183.52 |                3 |
 
 ### 04_customer_lifetime_value
 
@@ -133,9 +133,9 @@ ORDER BY lifetime_revenue_usd DESC;
 
 |   customer_id | region   | customer_type   | customer_status   |   order_count |   lifetime_revenue_usd |
 |--------------:|:---------|:----------------|:------------------|--------------:|-----------------------:|
-|         42492 | west     | enterprise      | active            |            10 |                3645.64 |
-|         42491 | west     | enterprise      | inactive          |             2 |                 352.43 |
+|         42492 | west     | enterprise      | active            |             8 |                3430.42 |
 |         32483 | east     | consumer        | inactive          |             2 |                 319.07 |
+|         42491 | west     | enterprise      | inactive          |             1 |                 136.12 |
 |         21456 | central  | small business  | active            |             2 |                  88.32 |
 
 ### 05a_duplicate_orders
