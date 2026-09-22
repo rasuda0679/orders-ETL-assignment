@@ -1,0 +1,5 @@
+customer_id,region,customer_type,customer_status,order_count,lifetime_revenue_usd
+42492,west,enterprise,active,10,3645.64
+42491,west,enterprise,inactive,2,352.43
+32483,east,consumer,inactive,2,319.07
+21456,central,small business,active,2,88.32

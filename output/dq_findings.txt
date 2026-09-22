@@ -1,0 +1,5 @@
+customers: 8 repeated cust_id rows -> kept latest snapshot per customer
+products: currency values normalised to upper case (Yen -> YEN)
+orders: 2 exact duplicate lines removed
+orders: 2 lines missing cust_id, 1 lines with bad quantity, 0 unknown customers, 0 unknown products
+orders: 20 lines dated before customer created_at (kept, looks like created_at is a snapshot date not a signup date)

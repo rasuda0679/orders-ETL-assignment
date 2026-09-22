@@ -1,0 +1,10 @@
+region,product_id,product_name,revenue_usd,rank_in_region
+central,6,ffff,35.47,1
+central,3,cccc,33.03,2
+central,2,bbbb,19.82,3
+east,4,dddd,107.47,1
+east,11,ergertg,103.44,2
+east,7,asdfdf,78.16,3
+west,14,kjhhjk,2241.15,1
+west,13,ruy5u,951.39,2
+west,8,dafsfsdf,216.31,3

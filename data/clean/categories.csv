@@ -1,0 +1,6 @@
+cat_id,category_name,parent_category,category_group
+1,Sweet,all,Sweet
+2,chocolate,Sweet,Sweet
+3,candy,Sweet,Sweet
+4,crisp,salt,salt
+5,chip,salt,salt

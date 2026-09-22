@@ -1,0 +1,13 @@
+cust_id,created_at,country,region,type,zip,active
+32483,1/1/2025,US,east,consumer,10000,y
+21456,2/2/2025,US,central,small business,20000,y
+42491,3/6/2025,US,west,enterprise,30000,y
+42492,3/7/2025,US,west,enterprise,30001,y
+32483,3/8/2025,US,east,consumer,10000,y
+21456,3/9/2025,US,central,small business,20000,n
+42491,3/10/2025,US,west,enterprise,30000,y
+42492,3/11/2025,US,west,enterprise,30001,y
+32483,3/12/2025,US,east,consumer,10000,n
+21456,3/13/2025,US,central,small business,20000,y
+42491,3/14/2025,US,west,enterprise,30000,n
+42492,3/15/2025,US,west,enterprise,30001,y

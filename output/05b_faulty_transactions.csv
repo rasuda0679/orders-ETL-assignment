@@ -1,0 +1,4 @@
+order_line_id,order_id,customer_id,product_id,order_ts,status,quantity,fault_reason
+13,A-013,42492,11,2020-01-22 02:52:00,shipped,0.1,non-integer or zero quantity
+15,A-021,,7,2020-01-23 02:52:00,created,2.0,missing cust_id
+16,A-022,,8,2020-01-23 02:52:00,cancelled,3.0,missing cust_id

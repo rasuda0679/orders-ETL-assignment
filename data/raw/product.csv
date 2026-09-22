@@ -1,0 +1,15 @@
+prod_id,cat_id,prod_name,price,currency
+1,2,aaaa,10,USD
+2,2,bbbb,15,USD
+3,3,cccc,12.5,USD
+4,3,dddd,33,USD
+5,2,eeee,8,USD
+6,2,ffff,11,USD
+7,1,asdfdf,300,Yen
+8,1,dafsfsdf,274,Yen
+9,1,ASFasf,315,Yen
+10,4,ewere,356,Yen
+11,2,ergertg,397,Yen
+12,5,yioyuio,438,Yen
+13,5,ruy5u,479,Yen
+14,4,kjhhjk,520,Yen

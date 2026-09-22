@@ -1,0 +1,6 @@
+cat_id,child,parent
+1,Sweet,all
+2,chocolate,Sweet
+3,candy,Sweet
+4,crisp,salt
+5,chip,salt

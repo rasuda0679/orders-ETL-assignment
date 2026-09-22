@@ -1,0 +1,2 @@
+order_id,cust_id,order_ts,prod_id,quantity,status,times_seen
+A-005,21456,1/12/2019 9:28,2,1.0,shipped,3

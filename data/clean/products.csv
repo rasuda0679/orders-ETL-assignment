@@ -1,0 +1,15 @@
+prod_id,cat_id,prod_name,price,currency,category_name,category_group
+1,2,aaaa,10.0,USD,chocolate,Sweet
+2,2,bbbb,15.0,USD,chocolate,Sweet
+3,3,cccc,12.5,USD,candy,Sweet
+4,3,dddd,33.0,USD,candy,Sweet
+5,2,eeee,8.0,USD,chocolate,Sweet
+6,2,ffff,11.0,USD,chocolate,Sweet
+7,1,asdfdf,300.0,YEN,Sweet,Sweet
+8,1,dafsfsdf,274.0,YEN,Sweet,Sweet
+9,1,ASFasf,315.0,YEN,Sweet,Sweet
+10,4,ewere,356.0,YEN,crisp,salt
+11,2,ergertg,397.0,YEN,chocolate,Sweet
+12,5,yioyuio,438.0,YEN,chip,salt
+13,5,ruy5u,479.0,YEN,chip,salt
+14,4,kjhhjk,520.0,YEN,crisp,salt

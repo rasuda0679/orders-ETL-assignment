@@ -1,0 +1,5 @@
+cust_id,created_at,country,region,customer_type,zip,is_active
+21456,2025-03-13,US,central,small business,20000,True
+32483,2025-03-12,US,east,consumer,10000,False
+42491,2025-03-14,US,west,enterprise,30000,False
+42492,2025-03-15,US,west,enterprise,30001,True

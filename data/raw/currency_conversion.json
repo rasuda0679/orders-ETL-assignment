@@ -1,0 +1,947 @@
+[
+  {
+    "date": "2018-12-15",
+    "currency": "USD",
+    "conversion": 1
+  },
+  {
+    "date": "2018-12-15",
+    "currency": "YEN",
+    "conversion": 0.08
+  },
+  {
+    "date": "2018-12-15",
+    "currency": "POUND",
+    "conversion": 1.2
+  },
+  {
+    "date": "2018-12-16",
+    "currency": "USD",
+    "conversion": 1.01
+  },
+  {
+    "date": "2018-12-16",
+    "currency": "YEN",
+    "conversion": 0.0808
+  },
+  {
+    "date": "2018-12-16",
+    "currency": "POUND",
+    "conversion": 1.212
+  },
+  {
+    "date": "2018-12-17",
+    "currency": "USD",
+    "conversion": 1.0201
+  },
+  {
+    "date": "2018-12-17",
+    "currency": "YEN",
+    "conversion": 0.081608
+  },
+  {
+    "date": "2018-12-17",
+    "currency": "POUND",
+    "conversion": 1.22412
+  },
+  {
+    "date": "2018-12-18",
+    "currency": "USD",
+    "conversion": 1.030301
+  },
+  {
+    "date": "2018-12-18",
+    "currency": "YEN",
+    "conversion": 0.082424
+  },
+  {
+    "date": "2018-12-18",
+    "currency": "POUND",
+    "conversion": 1.236361
+  },
+  {
+    "date": "2018-12-19",
+    "currency": "USD",
+    "conversion": 1.040604
+  },
+  {
+    "date": "2018-12-19",
+    "currency": "YEN",
+    "conversion": 0.083248
+  },
+  {
+    "date": "2018-12-19",
+    "currency": "POUND",
+    "conversion": 1.248725
+  },
+  {
+    "date": "2018-12-20",
+    "currency": "USD",
+    "conversion": 1.05101
+  },
+  {
+    "date": "2018-12-20",
+    "currency": "YEN",
+    "conversion": 0.084081
+  },
+  {
+    "date": "2018-12-20",
+    "currency": "POUND",
+    "conversion": 1.261212
+  },
+  {
+    "date": "2018-12-21",
+    "currency": "USD",
+    "conversion": 1.06152
+  },
+  {
+    "date": "2018-12-21",
+    "currency": "YEN",
+    "conversion": 0.084922
+  },
+  {
+    "date": "2018-12-21",
+    "currency": "POUND",
+    "conversion": 1.273824
+  },
+  {
+    "date": "2018-12-22",
+    "currency": "USD",
+    "conversion": 1.072135
+  },
+  {
+    "date": "2018-12-22",
+    "currency": "YEN",
+    "conversion": 0.085772
+  },
+  {
+    "date": "2018-12-22",
+    "currency": "POUND",
+    "conversion": 1.286562
+  },
+  {
+    "date": "2018-12-23",
+    "currency": "USD",
+    "conversion": 1.082856
+  },
+  {
+    "date": "2018-12-23",
+    "currency": "YEN",
+    "conversion": 0.08663
+  },
+  {
+    "date": "2018-12-23",
+    "currency": "POUND",
+    "conversion": 1.299427
+  },
+  {
+    "date": "2018-12-24",
+    "currency": "USD",
+    "conversion": 1.093685
+  },
+  {
+    "date": "2018-12-24",
+    "currency": "YEN",
+    "conversion": 0.087497
+  },
+  {
+    "date": "2018-12-24",
+    "currency": "POUND",
+    "conversion": 1.312421
+  },
+  {
+    "date": "2018-12-25",
+    "currency": "USD",
+    "conversion": 1.104622
+  },
+  {
+    "date": "2018-12-25",
+    "currency": "YEN",
+    "conversion": 0.088372
+  },
+  {
+    "date": "2018-12-25",
+    "currency": "POUND",
+    "conversion": 1.325545
+  },
+  {
+    "date": "2018-12-26",
+    "currency": "USD",
+    "conversion": 1.115668
+  },
+  {
+    "date": "2018-12-26",
+    "currency": "YEN",
+    "conversion": 0.089256
+  },
+  {
+    "date": "2018-12-26",
+    "currency": "POUND",
+    "conversion": 1.338801
+  },
+  {
+    "date": "2018-12-27",
+    "currency": "USD",
+    "conversion": 1.126825
+  },
+  {
+    "date": "2018-12-27",
+    "currency": "YEN",
+    "conversion": 0.090148
+  },
+  {
+    "date": "2018-12-27",
+    "currency": "POUND",
+    "conversion": 1.352189
+  },
+  {
+    "date": "2018-12-28",
+    "currency": "USD",
+    "conversion": 1.138093
+  },
+  {
+    "date": "2018-12-28",
+    "currency": "YEN",
+    "conversion": 0.091049
+  },
+  {
+    "date": "2018-12-28",
+    "currency": "POUND",
+    "conversion": 1.365711
+  },
+  {
+    "date": "2018-12-29",
+    "currency": "USD",
+    "conversion": 1.149474
+  },
+  {
+    "date": "2018-12-29",
+    "currency": "YEN",
+    "conversion": 0.091959
+  },
+  {
+    "date": "2018-12-29",
+    "currency": "POUND",
+    "conversion": 1.379368
+  },
+  {
+    "date": "2018-12-30",
+    "currency": "USD",
+    "conversion": 1.160969
+  },
+  {
+    "date": "2018-12-30",
+    "currency": "YEN",
+    "conversion": 0.092879
+  },
+  {
+    "date": "2018-12-30",
+    "currency": "POUND",
+    "conversion": 1.393162
+  },
+  {
+    "date": "2018-12-31",
+    "currency": "USD",
+    "conversion": 1.172579
+  },
+  {
+    "date": "2018-12-31",
+    "currency": "YEN",
+    "conversion": 0.093807
+  },
+  {
+    "date": "2018-12-31",
+    "currency": "POUND",
+    "conversion": 1.407094
+  },
+  {
+    "date": "2019-01-01",
+    "currency": "USD",
+    "conversion": 1.184305
+  },
+  {
+    "date": "2019-01-01",
+    "currency": "YEN",
+    "conversion": 0.094745
+  },
+  {
+    "date": "2019-01-01",
+    "currency": "POUND",
+    "conversion": 1.421165
+  },
+  {
+    "date": "2019-01-02",
+    "currency": "USD",
+    "conversion": 1.196148
+  },
+  {
+    "date": "2019-01-02",
+    "currency": "YEN",
+    "conversion": 0.095692
+  },
+  {
+    "date": "2019-01-02",
+    "currency": "POUND",
+    "conversion": 1.435377
+  },
+  {
+    "date": "2019-01-03",
+    "currency": "USD",
+    "conversion": 1.20811
+  },
+  {
+    "date": "2019-01-03",
+    "currency": "YEN",
+    "conversion": 0.096649
+  },
+  {
+    "date": "2019-01-03",
+    "currency": "POUND",
+    "conversion": 1.44973
+  },
+  {
+    "date": "2019-01-04",
+    "currency": "USD",
+    "conversion": 1.220191
+  },
+  {
+    "date": "2019-01-04",
+    "currency": "YEN",
+    "conversion": 0.097616
+  },
+  {
+    "date": "2019-01-04",
+    "currency": "POUND",
+    "conversion": 1.464227
+  },
+  {
+    "date": "2019-01-05",
+    "currency": "USD",
+    "conversion": 1.232393
+  },
+  {
+    "date": "2019-01-05",
+    "currency": "YEN",
+    "conversion": 0.098592
+  },
+  {
+    "date": "2019-01-05",
+    "currency": "POUND",
+    "conversion": 1.478869
+  },
+  {
+    "date": "2019-01-06",
+    "currency": "USD",
+    "conversion": 1.244717
+  },
+  {
+    "date": "2019-01-06",
+    "currency": "YEN",
+    "conversion": 0.099578
+  },
+  {
+    "date": "2019-01-06",
+    "currency": "POUND",
+    "conversion": 1.493658
+  },
+  {
+    "date": "2019-01-07",
+    "currency": "USD",
+    "conversion": 1.257164
+  },
+  {
+    "date": "2019-01-07",
+    "currency": "YEN",
+    "conversion": 0.100574
+  },
+  {
+    "date": "2019-01-07",
+    "currency": "POUND",
+    "conversion": 1.508594
+  },
+  {
+    "date": "2019-01-08",
+    "currency": "USD",
+    "conversion": 1.269736
+  },
+  {
+    "date": "2019-01-08",
+    "currency": "YEN",
+    "conversion": 0.10158
+  },
+  {
+    "date": "2019-01-08",
+    "currency": "POUND",
+    "conversion": 1.52368
+  },
+  {
+    "date": "2019-01-09",
+    "currency": "USD",
+    "conversion": 1.282433
+  },
+  {
+    "date": "2019-01-09",
+    "currency": "YEN",
+    "conversion": 0.102596
+  },
+  {
+    "date": "2019-01-09",
+    "currency": "POUND",
+    "conversion": 1.538917
+  },
+  {
+    "date": "2019-01-10",
+    "currency": "USD",
+    "conversion": 1.295258
+  },
+  {
+    "date": "2019-01-10",
+    "currency": "YEN",
+    "conversion": 0.103622
+  },
+  {
+    "date": "2019-01-10",
+    "currency": "POUND",
+    "conversion": 1.554306
+  },
+  {
+    "date": "2019-01-11",
+    "currency": "USD",
+    "conversion": 1.30821
+  },
+  {
+    "date": "2019-01-11",
+    "currency": "YEN",
+    "conversion": 0.104659
+  },
+  {
+    "date": "2019-01-11",
+    "currency": "POUND",
+    "conversion": 1.569849
+  },
+  {
+    "date": "2019-01-12",
+    "currency": "USD",
+    "conversion": 1.321292
+  },
+  {
+    "date": "2019-01-12",
+    "currency": "YEN",
+    "conversion": 0.105705
+  },
+  {
+    "date": "2019-01-12",
+    "currency": "POUND",
+    "conversion": 1.585547
+  },
+  {
+    "date": "2019-01-13",
+    "currency": "USD",
+    "conversion": 1.334505
+  },
+  {
+    "date": "2019-01-13",
+    "currency": "YEN",
+    "conversion": 0.106762
+  },
+  {
+    "date": "2019-01-13",
+    "currency": "POUND",
+    "conversion": 1.601403
+  },
+  {
+    "date": "2019-01-14",
+    "currency": "USD",
+    "conversion": 1.34785
+  },
+  {
+    "date": "2019-01-14",
+    "currency": "YEN",
+    "conversion": 0.107829
+  },
+  {
+    "date": "2019-01-14",
+    "currency": "POUND",
+    "conversion": 1.617417
+  },
+  {
+    "date": "2019-01-15",
+    "currency": "USD",
+    "conversion": 1.361328
+  },
+  {
+    "date": "2019-01-15",
+    "currency": "YEN",
+    "conversion": 0.108907
+  },
+  {
+    "date": "2019-01-15",
+    "currency": "POUND",
+    "conversion": 1.633591
+  },
+  {
+    "date": "2019-01-16",
+    "currency": "USD",
+    "conversion": 1.374941
+  },
+  {
+    "date": "2019-01-16",
+    "currency": "YEN",
+    "conversion": 0.109996
+  },
+  {
+    "date": "2019-01-16",
+    "currency": "POUND",
+    "conversion": 1.649927
+  },
+  {
+    "date": "2019-01-17",
+    "currency": "USD",
+    "conversion": 1.38869
+  },
+  {
+    "date": "2019-01-17",
+    "currency": "YEN",
+    "conversion": 0.111096
+  },
+  {
+    "date": "2019-01-17",
+    "currency": "POUND",
+    "conversion": 1.666427
+  },
+  {
+    "date": "2019-01-18",
+    "currency": "USD",
+    "conversion": 1.402577
+  },
+  {
+    "date": "2019-01-18",
+    "currency": "YEN",
+    "conversion": 0.112207
+  },
+  {
+    "date": "2019-01-18",
+    "currency": "POUND",
+    "conversion": 1.683091
+  },
+  {
+    "date": "2019-01-19",
+    "currency": "USD",
+    "conversion": 1.416602
+  },
+  {
+    "date": "2019-01-19",
+    "currency": "YEN",
+    "conversion": 0.113329
+  },
+  {
+    "date": "2019-01-19",
+    "currency": "POUND",
+    "conversion": 1.699922
+  },
+  {
+    "date": "2019-01-20",
+    "currency": "USD",
+    "conversion": 1.430768
+  },
+  {
+    "date": "2019-01-20",
+    "currency": "YEN",
+    "conversion": 0.114462
+  },
+  {
+    "date": "2019-01-20",
+    "currency": "POUND",
+    "conversion": 1.716921
+  },
+  {
+    "date": "2019-01-21",
+    "currency": "USD",
+    "conversion": 1.445076
+  },
+  {
+    "date": "2019-01-21",
+    "currency": "YEN",
+    "conversion": 0.115607
+  },
+  {
+    "date": "2019-01-21",
+    "currency": "POUND",
+    "conversion": 1.73409
+  },
+  {
+    "date": "2019-01-22",
+    "currency": "USD",
+    "conversion": 1.459527
+  },
+  {
+    "date": "2019-01-22",
+    "currency": "YEN",
+    "conversion": 0.116763
+  },
+  {
+    "date": "2019-01-22",
+    "currency": "POUND",
+    "conversion": 1.751431
+  },
+  {
+    "date": "2019-01-23",
+    "currency": "USD",
+    "conversion": 1.474122
+  },
+  {
+    "date": "2019-01-23",
+    "currency": "YEN",
+    "conversion": 0.117931
+  },
+  {
+    "date": "2019-01-23",
+    "currency": "POUND",
+    "conversion": 1.768946
+  },
+  {
+    "date": "2019-01-24",
+    "currency": "USD",
+    "conversion": 1.488863
+  },
+  {
+    "date": "2019-01-24",
+    "currency": "YEN",
+    "conversion": 0.11911
+  },
+  {
+    "date": "2019-01-24",
+    "currency": "POUND",
+    "conversion": 1.786635
+  },
+  {
+    "date": "2019-01-25",
+    "currency": "USD",
+    "conversion": 1.503752
+  },
+  {
+    "date": "2019-01-25",
+    "currency": "YEN",
+    "conversion": 0.120301
+  },
+  {
+    "date": "2019-01-25",
+    "currency": "POUND",
+    "conversion": 1.804501
+  },
+  {
+    "date": "2019-01-26",
+    "currency": "USD",
+    "conversion": 1.51879
+  },
+  {
+    "date": "2019-01-26",
+    "currency": "YEN",
+    "conversion": 0.121504
+  },
+  {
+    "date": "2019-01-26",
+    "currency": "POUND",
+    "conversion": 1.822546
+  },
+  {
+    "date": "2019-01-27",
+    "currency": "USD",
+    "conversion": 1.533978
+  },
+  {
+    "date": "2019-01-27",
+    "currency": "YEN",
+    "conversion": 0.122719
+  },
+  {
+    "date": "2019-01-27",
+    "currency": "POUND",
+    "conversion": 1.840771
+  },
+  {
+    "date": "2019-01-28",
+    "currency": "USD",
+    "conversion": 1.549318
+  },
+  {
+    "date": "2019-01-28",
+    "currency": "YEN",
+    "conversion": 0.123947
+  },
+  {
+    "date": "2019-01-28",
+    "currency": "POUND",
+    "conversion": 1.859179
+  },
+  {
+    "date": "2019-01-29",
+    "currency": "USD",
+    "conversion": 1.564811
+  },
+  {
+    "date": "2019-01-29",
+    "currency": "YEN",
+    "conversion": 0.125187
+  },
+  {
+    "date": "2019-01-29",
+    "currency": "POUND",
+    "conversion": 1.877771
+  },
+  {
+    "date": "2019-01-30",
+    "currency": "USD",
+    "conversion": 1.580459
+  },
+  {
+    "date": "2019-01-30",
+    "currency": "YEN",
+    "conversion": 0.126439
+  },
+  {
+    "date": "2019-01-30",
+    "currency": "POUND",
+    "conversion": 1.896549
+  },
+  {
+    "date": "2019-01-31",
+    "currency": "USD",
+    "conversion": 1.596264
+  },
+  {
+    "date": "2019-01-31",
+    "currency": "YEN",
+    "conversion": 0.127704
+  },
+  {
+    "date": "2019-01-31",
+    "currency": "POUND",
+    "conversion": 1.915515
+  },
+  {
+    "date": "2020-01-17",
+    "currency": "USD",
+    "conversion": 1.612226
+  },
+  {
+    "date": "2020-01-17",
+    "currency": "YEN",
+    "conversion": 0.128981
+  },
+  {
+    "date": "2020-01-17",
+    "currency": "POUND",
+    "conversion": 1.93467
+  },
+  {
+    "date": "2020-01-18",
+    "currency": "USD",
+    "conversion": 1.628348
+  },
+  {
+    "date": "2020-01-18",
+    "currency": "YEN",
+    "conversion": 0.130271
+  },
+  {
+    "date": "2020-01-18",
+    "currency": "POUND",
+    "conversion": 1.954017
+  },
+  {
+    "date": "2020-01-19",
+    "currency": "USD",
+    "conversion": 1.644632
+  },
+  {
+    "date": "2020-01-19",
+    "currency": "YEN",
+    "conversion": 0.131574
+  },
+  {
+    "date": "2020-01-19",
+    "currency": "POUND",
+    "conversion": 1.973557
+  },
+  {
+    "date": "2020-01-20",
+    "currency": "USD",
+    "conversion": 1.661078
+  },
+  {
+    "date": "2020-01-20",
+    "currency": "YEN",
+    "conversion": 0.13289
+  },
+  {
+    "date": "2020-01-20",
+    "currency": "POUND",
+    "conversion": 1.993292
+  },
+  {
+    "date": "2020-01-21",
+    "currency": "USD",
+    "conversion": 1.677689
+  },
+  {
+    "date": "2020-01-21",
+    "currency": "YEN",
+    "conversion": 0.134219
+  },
+  {
+    "date": "2020-01-21",
+    "currency": "POUND",
+    "conversion": 2.013225
+  },
+  {
+    "date": "2020-01-22",
+    "currency": "USD",
+    "conversion": 1.694466
+  },
+  {
+    "date": "2020-01-22",
+    "currency": "YEN",
+    "conversion": 0.135561
+  },
+  {
+    "date": "2020-01-22",
+    "currency": "POUND",
+    "conversion": 2.033357
+  },
+  {
+    "date": "2020-01-23",
+    "currency": "USD",
+    "conversion": 1.711411
+  },
+  {
+    "date": "2020-01-23",
+    "currency": "YEN",
+    "conversion": 0.136916
+  },
+  {
+    "date": "2020-01-23",
+    "currency": "POUND",
+    "conversion": 2.053691
+  },
+  {
+    "date": "2020-01-08",
+    "currency": "USD",
+    "conversion": 1.728525
+  },
+  {
+    "date": "2020-01-08",
+    "currency": "YEN",
+    "conversion": 0.138285
+  },
+  {
+    "date": "2020-01-08",
+    "currency": "POUND",
+    "conversion": 2.074228
+  },
+  {
+    "date": "2020-01-24",
+    "currency": "USD",
+    "conversion": 1.74581
+  },
+  {
+    "date": "2020-01-24",
+    "currency": "YEN",
+    "conversion": 0.139668
+  },
+  {
+    "date": "2020-01-24",
+    "currency": "POUND",
+    "conversion": 2.094971
+  },
+  {
+    "date": "2020-01-25",
+    "currency": "USD",
+    "conversion": 1.763268
+  },
+  {
+    "date": "2020-01-25",
+    "currency": "YEN",
+    "conversion": 0.141065
+  },
+  {
+    "date": "2020-01-25",
+    "currency": "POUND",
+    "conversion": 2.115921
+  },
+  {
+    "date": "2020-01-26",
+    "currency": "USD",
+    "conversion": 1.780901
+  },
+  {
+    "date": "2020-01-26",
+    "currency": "YEN",
+    "conversion": 0.142476
+  },
+  {
+    "date": "2020-01-26",
+    "currency": "POUND",
+    "conversion": 2.13708
+  },
+  {
+    "date": "2020-01-27",
+    "currency": "USD",
+    "conversion": 1.79871
+  },
+  {
+    "date": "2020-01-27",
+    "currency": "YEN",
+    "conversion": 0.143901
+  },
+  {
+    "date": "2020-01-27",
+    "currency": "POUND",
+    "conversion": 2.158451
+  },
+  {
+    "date": "2020-01-28",
+    "currency": "USD",
+    "conversion": 1.816697
+  },
+  {
+    "date": "2020-01-28",
+    "currency": "YEN",
+    "conversion": 0.14534
+  },
+  {
+    "date": "2020-01-28",
+    "currency": "POUND",
+    "conversion": 2.180036
+  },
+  {
+    "date": "2020-01-28",
+    "currency": "USD",
+    "conversion": 1.834864
+  },
+  {
+    "date": "2020-01-28",
+    "currency": "YEN",
+    "conversion": 0.146794
+  },
+  {
+    "date": "2020-01-28",
+    "currency": "POUND",
+    "conversion": 2.201837
+  },
+    {
+    "date": "2020-01-29",
+    "currency": "USD",
+    "conversion": 1.834864
+  },
+  {
+    "date": "2020-01-29",
+    "currency": "YEN",
+    "conversion": 0.146794
+  },
+  {
+    "date": "2020-01-29",
+    "currency": "POUND",
+    "conversion": 2.201837
+  }
+]
